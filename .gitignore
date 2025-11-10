@@ -1,0 +1,22 @@
+# Diretórios de estado e cache
+.terraform/
+.terraform.tfstate.lock.info
+
+# Arquivos de estado (contêm dados sensíveis!)
+*.tfstate
+*.tfstate.*
+
+# Logs e planos locais
+crash.log
+*.tfplan
+*.tfvars
+
+# Override files (locais, não versionáveis)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de configuração local
+.terraformrc
+terraform.rc
